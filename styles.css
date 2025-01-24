@@ -1,0 +1,417 @@
+/* Resetting styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Style */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Other Styling */
+/* footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 2rem;
+} */
+
+.about, .contact, .ticket-purchase {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+form {
+    text-align: left;
+    margin-top: 1rem;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input[type="number"] {
+    padding: 5px;
+    width: 100px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.hero {
+    position: relative;
+    background: url('/Images/Screenshot\ 2025-01-18\ 155103.jpg') no-repeat center center;
+    background-size: cover; /* Ensures the image covers the entire screen */
+    color: #fff;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    background-position: center center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: 100vh; /* Ensure the height is 100% of the viewport on smaller screens */
+    }
+}
+
+
+
+
+.content-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.museum-photo {
+    max-width: 50%;
+    margin-right: 20px; /* Adjust this value to change the spacing */
+}
+
+.schedule {
+    max-width: 50%;
+}
+
+
+.zigzag-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    margin: 5px;
+}
+
+.box:nth-child(odd) {
+    margin-top: 0;
+}
+
+.box:nth-child(even) {
+    margin-top: 20px;
+}
+
+.vertical-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.box {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    background-color: #ccc;
+    margin: 10px 0; /* Adjust the margin as needed */
+}
+
+
+/* filepath: /c:/Users/GigaByte/Desktop/Muzeu i Kosoves/css/styles.css */
+.zigzag-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.box {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    background-color: #ccc;
+    margin: 10px 0; /* Adjust the margin as needed */
+}
+
+.box:nth-child(odd) {
+    margin-left: 0;
+}
+
+.box:nth-child(even) {
+    margin-left: 20px; /* Adjust this value to create the zigzag effect */
+}
+
+
+.zigzag-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.box {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    background-color: #ccc;
+    margin: 10px 0; /* Adjust the margin as needed */
+}
+
+.box:nth-child(odd) {
+    margin-left: 0;
+    margin-right: 20px; /* Adjust this value to create the zigzag effect */
+}
+
+.box:nth-child(even) {
+    margin-left: 40px; /* Adjust this value to create the zigzag effect */
+}
+
+
+
+.zigzag-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.box {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    background-color: #ccc;
+    margin: 10px 0; /* Adjust the margin as needed */
+}
+
+.box:nth-child(odd) {
+    margin-left: 0;
+    margin-right: 50px; /* Increase this value to create a more pronounced zigzag effect */
+}
+
+.box:nth-child(even) {
+    margin-left: 100px; /* Increase this value to create a more pronounced zigzag effect */
+}
+
+.zigzag-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.box {
+    width: 150px; /* Increase the width */
+    height: 150px; /* Increase the height */
+    background-color: #ccc;
+    margin: 10px 0; /* Adjust the margin as needed */
+}
+
+.box:nth-child(odd) {
+    margin-left: 0;
+    margin-right: 100px; /* Increase this value to create a more pronounced zigzag effect */
+}
+
+.box:nth-child(even) {
+    margin-left: 200px; /* Increase this value to create a more pronounced zigzag effect */
+}
+
+
+.zigzag-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.box {
+    width: 200px; /* Increase the width */
+    height: 200px; /* Increase the height */
+    background-color: #ccc;
+    margin: 10px 0; /* Adjust the margin as needed */
+}
+
+.box:nth-child(odd) {
+    margin-left: 0;
+    margin-right: 150px; /* Increase this value to create a more pronounced zigzag effect */
+}
+
+.box:nth-child(even) {
+    margin-left: 300px; /* Increase this value to create a more pronounced zigzag effect */
+}
+
+
+.zigzag-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.box {
+    width: 850px; /* Increase the width */
+    height: 600px; /* Increase the height */
+    background-color: #ccc;
+    margin: 10px 0; /* Adjust the margin as needed */
+}
+
+.box:nth-child(odd) {
+    margin-left: 0;
+    margin-right: 150px; /* Increase this value to create a more pronounced zigzag effect */
+}
+
+.box:nth-child(even) {
+    margin-left: 2000px; /* Increase this value to create a more pronounced zigzag effect */
+}
+
+.box:nth-child(odd) {
+    margin-left: 0;
+    margin-right: 2000px; /* This value creates the zigzag effect for odd boxes */
+}
+
+.box:nth-child(even) {
+    margin-left: 2000px; /* This value creates the zigzag effect for even boxes */
+}
+
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px 20px; /* Added padding for better spacing */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .footer1 {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Added space between the two sections */
+    flex-wrap: wrap; /* Ensures the sections wrap on smaller screens */
+    width: 100%;
+    margin-bottom: 20px; /* Space between footer1 and copyright */
+    }
+    
+    .footer1 div {
+    max-width: 300px; /* Ensure each section has a max width */
+    text-align: left;
+    margin-left: 160px;
+    }
+    
+    .footer1 h4 {
+    margin-bottom: 10px; /* Add some space below the heading */
+    }
+    
+    .footer1 p {
+    margin-bottom: 15px; /* Add space between paragraphs */
+    display: flex;
+    align-items: center;
+    }
+    
+    .footer1 img {
+    margin-right: 10px; /* Space between image and text */
+    }
+    
+    footer p {
+    font-size: 0.9em; /* Slightly smaller text for the copyright */
+    margin-top: 20px;
+    }
+    
+    @media (max-width: 768px) {
+    .footer1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer1 div {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    footer p {
+        font-size: 0.8em; /* Adjust copyright text size on smaller screens */
+    }
+    }
+
+    
+
+    .about {
+        text-align: center;
+        max-width: 800px; /* Adjust the width as needed */
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    .about h1 {
+        margin-bottom: 20px;
+    }
+    
+    .about p {
+        text-align: justify;
+    }
+
+
+
+    /* Ensure the body takes up at least 100% of the viewport height */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content should take up all available space */
+main {
+    flex: 1;
+}
+
+/* Footer styling */
+footer {
+    background-color: black; /* Adjust as needed */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    height: 100px; /* Adjust as needed */
+}
+
+
+
+.box{
+    background : url('/Images/Screenshot\ 2025-01-18\ 155103.jpg') no-repeat center center;
+
+}
