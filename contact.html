@@ -5,9 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="/css/styles.css">
+
+
+    <style>
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .contact button {
+            margin-top: 10px;
+        }
+        
+        .contact form label {
+            margin-top: 10px;
+        }
+        
+        .contact form input, .contact form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+
+
+        
+    </style>
+
+
+
 </head>
 <body>
     <header>
+        <h1 style="display: flex; justify-content: center;">Museum of Kosovo</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -22,7 +54,22 @@
 
     <main>
         <section class="contact">
-         
+            <section class="contact" style="height: 1300px; width: auto;">
+                <h1>Na Kontaktoni</h1>
+                <p>Plotësoni formularin më poshtë për të na kontaktuar.</p>
+                <form>
+                    <label for="name">Emri:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Mesazhi:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <div class="g-recaptcha" data-sitekey="6Lf8h8wUAAAAAP00Gh_sRfG6isIIt9fvWY_PZI3G"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-yq8g71jm9k2f" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lf8h8wUAAAAAP00Gh_sRfG6isIIt9fvWY_PZI3G&amp;co=aHR0cHM6Ly93d3cua3JhcGljb20uYml6OjQ0Mw..&amp;hl=en&amp;v=zIriijn3uj5Vpknvt_LnfNbF&amp;size=normal&amp;cb=3pppgxw8t977"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+                    <button type="submit">Dërgo</button>
+                </form>
+            </section>
         </section>
     </main>
 
